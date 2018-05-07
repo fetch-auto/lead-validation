@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/fetch-auto/lead-validation#readme",
   "dependencies": {
-    "axios": "~0.18.0"
+    "axios": "~0.18.0",
+    "kickbox": "~2.0.4"
   },
   "devDependencies": {
     "eslint": "~4.19.1",
