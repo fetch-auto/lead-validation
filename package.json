@@ -1,0 +1,30 @@
+{
+  "name": "lead-validation",
+  "version": "0.1.0",
+  "description": "Valdiate phone numbers + emails of leads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint '**/*.js' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fetch-auto/lead-validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fetch-auto/lead-validation/issues"
+  },
+  "homepage": "https://github.com/fetch-auto/lead-validation#readme",
+  "dependencies": {
+    "axios": "~0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-standard": "~12.0.0-alpha.0",
+    "eslint-plugin-dependencies": "~2.4.0",
+    "eslint-plugin-node": "~6.0.1",
+    "eslint-plugin-standard": "~3.1.0"
+  }
+}
