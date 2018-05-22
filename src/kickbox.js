@@ -15,7 +15,7 @@ const validateEmail = (email, apiKey) => {
     const client = kickbox.client(apiKey).kickbox();
 
     return new Promise((resolve, reject) => {
-        client.verify(email, (err, response) => {
+        client.verify(email, {timeout: 12000}, (err, response) => {
             if (err) {
                 return reject(err);
             }
